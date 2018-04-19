@@ -4,4 +4,9 @@ module Memorable
     all.clear
   end
 
+
+  def count
+    
+  end
+
 end
