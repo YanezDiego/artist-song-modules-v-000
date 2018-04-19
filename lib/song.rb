@@ -2,7 +2,7 @@
 
 class Song
   extend Memorable
-  include Findable::ClassMethod
+  #include Findable::ClassMethod
   extend Findable::ClassMethod
   attr_accessor :name
   attr_reader :artist
