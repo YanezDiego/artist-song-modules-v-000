@@ -2,8 +2,8 @@
 
 class Song
   extend Memorable
-  #include Findable
-  extend Findable
+  include Findable
+  #extend Findable
   attr_accessor :name
   attr_reader :artist
 
